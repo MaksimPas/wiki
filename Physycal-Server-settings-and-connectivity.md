@@ -18,3 +18,8 @@
 ## Architecture Diagram
 
 ![image.png](/.attachments/image-75282c87-d864-41f8-890d-28c7f18c0e23.png)
+
+## Domain server and active directory installation
+
+Followed steps mentioned in this article
+https://computingforgeeks.com/install-active-directory-domain-services-in-windows-server/?utm_content=cmp-true
