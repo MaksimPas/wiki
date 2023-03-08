@@ -1,4 +1,4 @@
-# Physical Server settings and connectivity
+# Overview
 
 This section shows all the connection settings in our onPrem environment.
 Diagrams and configurations are stored as well.
