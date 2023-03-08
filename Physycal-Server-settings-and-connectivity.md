@@ -30,3 +30,25 @@
 
 Followed steps mentioned in this article
 https://computingforgeeks.com/install-active-directory-domain-services-in-windows-server/?utm_content=cmp-true
+
+## Available virtual machines
+
+### Windows Server 2022
+Host name: ODIN
+#### Active directory
+Users have been granted on-prem access to the system, login organization settings are:
+Logon name  : <user name>@bestos-united.accelerate-no-2023
+Logon name (Pre windows 2000) : BESTOS-UNITED\<user name>
+
+
+### Azure Pipelines agent
+An agent has been configured to work with Azure DevOps. This feature will allow the team to run pipelines under this agent fully available and azure independent.
+Agent has been configured to run as a service.
+![image.png](/.attachments/image-6e26cd30-0fbd-4696-b19d-fa60de8ca2ff.png)
+
+
+### PFSense
+
+
+![image.png](/.attachments/image-b0d77f7e-4b45-4644-8e68-67d4370a0868.png)
+
