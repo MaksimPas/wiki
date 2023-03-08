@@ -18,3 +18,6 @@ This is the main repository for code and pipelines
 
 * Complex Diagrams are developed using DrawIO. Keep all complex diagrams in a single file
 * Simple or Mermaid Diagrams can be stored as a part of any markdown 
+
+___
+>**As a rule of thumb diagrams should be added to drawio and then exported to .png files, which will be later displayed in its corresponding markdown reference**
