@@ -1,20 +1,48 @@
-This is the main documentation of "Bestos United" portal
+This is the main documentation of "Bestos United" project
 
-# About documentation:
+## TEAM:
 
-## Repositories
 
-### A23-BESTOS-UNITED.wiki
+| NAME                  | OFFICE            |
+|-----------------------|-------------------|
+| Henrik André Tellevik | Bergen Office     |
+| MUHAMMAD YASIR ABBASI | Sandefjord Office |
+| Asahi Cantu           | Stavanger         |
+| Pasichnyk, Maksym     | Oslo Office       |
+| Oppheim, Sølve        | Trondheim Office  |
 
-This is the wiki repository and can be cloned to be edited out of the Azure devOps main branch
+## PROJECT STATUS:
 
-### A23-BESTOS-UNITED
+### First Quarter Goals
+| Goal                                    | Status           | Description                                                           |
+|-----------------------------------------|------------------|-----------------------------------------------------------------------|
+| On premises system set up and tested​    | Done             | Could be accessed via browser or ssh https://92.220.49.188/ui/#/login |
+| Cloud environment ready for development​ | Done             | Required resources are created in resource group [BESTOS-RG](https://portal.azure.com/#@accelerate-no.com/resource/subscriptions/264a89f0-56e0-40ba-8d89-034174fddaab/resourceGroups/BESTOS-RG/overview)                                 
+| Simple solution deployed| Done        |[Frontend](https://bestos-core-app.azurewebsites.net/) - [Backend](https://bestos-backend-api.azurewebsites.net/#/Home) - [Swagger](https://bestos-backend-api.azurewebsites.net/swagger/index.html)
+| Documentation in place​| Done      | [Project Wiki](https://dev.azure.com/accelerate-no/A23-BESTOS-UNITED/_wiki/wikis)
+| DevOps environment and runners available| Done| [Backend and Frontend Pipelines](https://dev.azure.com/accelerate-no/A23-BESTOS-UNITED/_build)
+| All members of the teams have access to the on premises system (VPN)​| Yes | OpenVPN is configured in pfsense
+### Extras
+| Goal                                    | Status           | Description                                                           |
+|-----------------------------------------|------------------|-----------------------------------------------------------------------|
+| Domain Controller| Done | Windows Server VM
+| Users| Done| Windows Active Directory
 
-This is the main repository for code and pipelines
+##Important Information
+### Repositories
 
-### 
+#### [A23-BESTOS-UNITED](https://dev.azure.com/accelerate-no/A23-BESTOS-UNITED/_wiki/wikis)
 
-## Diagrams
+This is the wiki repository and can be cloned to be edited out of the Azure devOps main branch 
+
+#### [Frontend](https://dev.azure.com/accelerate-no/_git/A23-BESTOS-UNITED)
+This is the repository for frontend code and pipeline
+
+#### [Backend](https://dev.azure.com/accelerate-no/A23-BESTOS-UNITED/_git/backend-api)
+
+This is the main repository for backend code and pipelines 
+
+### Diagrams
 
 * Complex Diagrams are developed using DrawIO. Keep all complex diagrams in a single file
 * Simple or Mermaid Diagrams can be stored as a part of any markdown 
