@@ -1,7 +1,11 @@
-Bestos Resource group
+**Bestos Resource group**
 ![BESTOS-RG.png](/.attachments/BESTOS-RG-6ea624d4-df26-4ca2-8864-e83824cf7dd8.png)
 
+**Initial design and roadmap for services that will be needed**
+
+
 ![initial_model_services.png](/.attachments/initial_model_services-af74625f-86fa-4243-8cae-f91e6da10deb.png)
+
 
 **Description of the model**
 
