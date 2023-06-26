@@ -22,6 +22,19 @@ This is the main documentation of "Bestos United" project
 | Documentation in place​| Done      | [Project Wiki](https://dev.azure.com/accelerate-no/A23-BESTOS-UNITED/_wiki/wikis)
 | DevOps environment and runners available| Done| [Backend and Frontend Pipelines](https://dev.azure.com/accelerate-no/A23-BESTOS-UNITED/_build)
 | All members of the teams have access to the on premises system (VPN)​| Yes | OpenVPN is configured in pfsense
+
+
+### Second Quarter Goals
+| Goal                                    | Status           | Description                                                           |
+|-----------------------------------------|------------------|-----------------------------------------------------------------------|
+| Start enrolling resources into infrastructure as code (Terraform, Arm)​    | Done             | https://dev.azure.com/accelerate-no/A23-BESTOS-UNITED/_git/terraform |
+| Integrate IaC into DevOps pipelines | Done             | Required resources are created in resource group [bestos-t-rg](https://portal.azure.com/#@accelerate-no.com/resource/subscriptions/264a89f0-56e0-40ba-8d89-034174fddaab/resourceGroups/bestos-t-rg/overview)                                 
+| Dockerize application| In-Progress        |
+| Focus on idempotency of tasks and operations​| Done      |
+| Secure your applications| In-Progress|
+| Roadmap|In-Progress|
+| Architecture/Design of Services Required| In-Progress | 
+
 ### Extras
 | Goal                                    | Status           | Description                                                           |
 |-----------------------------------------|------------------|-----------------------------------------------------------------------|
