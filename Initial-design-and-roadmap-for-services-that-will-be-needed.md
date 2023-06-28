@@ -4,7 +4,7 @@
 **Initial design and roadmap for services that will be needed**
 
 
-![initial_model_services.png](/.attachments/initial_model_services-af74625f-86fa-4243-8cae-f91e6da10deb.png)
+![init_model.png](/.attachments/init_model-8578359b-4a1b-4420-90a7-cfc71aa25b37.png)
 
 
 **Description of the model**
