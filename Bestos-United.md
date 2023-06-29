@@ -31,7 +31,7 @@ This is the main documentation of "Bestos United" project
 | Integrate IaC into DevOps pipelines | Done             | Required resources are created in resource group [bestos-t-rg](https://portal.azure.com/#@accelerate-no.com/resource/subscriptions/264a89f0-56e0-40ba-8d89-034174fddaab/resourceGroups/bestos-t-rg/overview)                                 
 | Dockerize application| Done        |  [Todo-api](https://bestos-core-app-t.azurewebsites.net/#/Home)
 | Focus on idempotency of tasks and operations​| Done      | 
-| Secure your applications| Partially Done | IaC, onPrem With with Keyvault, usage of service principal and PAT
+| Secure your applications| Partially Done | IaC, onPrem With with Keyvault, usage of service principal and PAT and managed identities
 | Initial Roadmap and Architecture/Design of Services Required| Done | [Architecture](https://dev.azure.com/accelerate-no/A23-BESTOS-UNITED/_wiki/wikis/A23-BESTOS-UNITED.wiki/84/Initial-design-and-roadmap-for-services-that-will-be-needed)
 
 
