@@ -21,7 +21,7 @@ NIC 2: 192.168.0.12
 Part of router local network
 
 ##Virtual WAN network
-Purpose: separating internal workloads from the "outside world". 
+Purpose: separating internal workloads from the "outside world", providing security layer with a Firewall in this network.
 Address range: 10.1.0.0/16
 WAN DHCP: 10.1.0.1
 WAN DG: 10.1.0.1 (obtained via DHCP). 
@@ -36,6 +36,7 @@ Machines:
 No DMZ
 
 ##Virtual LAN network
+Purpose: network containing K8S nodes.
 Address range: 10.0.0.0/24
 No DHCP. DNS and DG configured manually on each NIC.
 
