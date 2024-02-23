@@ -1,9 +1,22 @@
-PfSense has been installed on its own virtual machine running on the on-premises server.
-The configuration can be done by opening a webbrowser from the windows server. The address for the pfsense is pfsense.bestos.no (Can only be reached from inside the network).
-Following settings have been applied
+PfSense has been installed on a virtual machine. pfSense acts as a firewall blocking unwanted traffic from WAN to LAN network and vise verca. 
 
-![image.png](/.attachments/image-00e1d438-61a5-4146-b741-460876dc8d7f.png)
+pfSense has been configured with 2 NICs:
+* WAN NIC. IP 10.1.0.8
+* LAN NIC. IP 10.0.0.1
 
-We have configured the use of VPN. Each user of the team has it's own user. To connect to the the windows server, each user has it's own installation file that installs the software on their computer. The configuration for each user includes their own certificate and a user/password needed to be able to connect to the vpn. The installation can be downloaded from the sabestos storage account in the azure portal. 
+For machines in LAN network, pfSense is used as Default Gateway, DNS resolver/forwarder and VPN server. 
 
-![image.png](/.attachments/image-cf7ed3c3-534c-4ac5-b69d-f3a67c1050e8.png)
+##Access GUI
+Access pfSense GUI on http://10.0.0.1
+
+##VPN Server
+IPSEC tunnel connecting LAN network 10.0.0.0/24 with Azure network 10.11.0.0/16
+
+![image.png](/.attachments/image-1d5e1c76-1d18-4733-a5a7-b78b9aff936d.png)
+
+##DNS server
+DNS server is set up listening on port 53 on LAN NIC and localhost. Private domains for Azure services like Database and Key Vault are overridden - DNS lookup for these domain is forwarded to Private DNS Resolver in Azure via VPN tunnel.
+![image.png](/.attachments/image-11f4d1b3-2b97-40e4-bf1b-7b81827fc2ca.png)
+Important: to make pfSense send traffic to Azure Private DNS via VPN, a static route "dest={Azure_VNET} NextHop=Lan_IP" must be added - this way pfSense sends traffic (destined to Azure VNET) to its LAN interface where traffic is intercepted by IPSEC tunnel and encapsulated.
+
+
