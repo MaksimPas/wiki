@@ -15,10 +15,11 @@ VirtualBox 7.0
 ##Public entry point. IP Address (Router Public IP)
 92.220.49.188
 
-##On-prem server IP
+##On-prem server
 NIC 1: 192.168.0.11
 NIC 2: 192.168.0.12
 Part of router local network
+Access via RDP
 
 ##Virtual WAN network
 Purpose: separating internal workloads from the "outside world", providing security layer with a Firewall in this network.
