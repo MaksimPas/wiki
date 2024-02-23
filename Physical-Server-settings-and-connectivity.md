@@ -18,18 +18,21 @@ Part of router local network
 
 ##Virtual WAN network
 Address range: 10.1.0.0/16
-WAN DG: 10.1.0.1
 WAN DHCP: 10.1.0.1
-WAN DNS: 10.1.0.1 ; 10.1.0.2 (obtained via DHCP). 
+WAN DG: 10.1.0.1 (obtained via DHCP). 
+WAN DNS: 10.1.0.1 and 10.1.0.2 (obtained via DHCP). 
 
 Incoming traffic to on-prem NIC1 and NIC2 is translated to WAN DG.
 
 Machines:
-* pfSense WAN NIC IP: 10.1.0.8
+* pfSense WAN NIC IP: 10.1.0.8 (via DHCP)
 
 ##Virtual LAN network
 Address range: 10.0.0.0/24
+No DHCP. DNS and DG configured manually on each NIC.
 
+NICs plugged into this network have following configuration:
+* 
 
 ##NAT rules on Router IP 92.220.49.188
 Entire NAT chain for inbound traffic on Router:
