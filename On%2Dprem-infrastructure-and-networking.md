@@ -65,6 +65,8 @@ Entire NAT chain for inbound traffic on Router:
   * IPSEC access to pfSense VPN Server.
 * port 4500 --> 192.168.0.11:4500 --> 10.1.0.8:4500
   * IPSEC access to pfSense VPN Server.
+* port 3389 --> 192.168.0.11:3389 
+  * RDP access to on-prem machine.
 
 
 
