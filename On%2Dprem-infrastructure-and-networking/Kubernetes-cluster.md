@@ -23,7 +23,7 @@ Installed packages:
 * external-secrets
   * Managing secrets in Azure Key Vault and injecting those in K8S native secrets. 
 * cert-manager
-  * Provisioning Cluster with SSL certificates from Let's Encrypt. 
+  * Provisioning Cluster with SSL certificates from Let's Encrypt and injecting those into k8s native "cert" secrets. 
 * kube-cost 
   * Cluster cost overview + optimization. 
 * prometheus-stack
