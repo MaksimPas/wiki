@@ -69,6 +69,8 @@ Entire NAT chain for inbound traffic on Router:
 * port 3389 --> 192.168.0.11:3389 
   * RDP access to on-prem machine.
 
+<IMG  src="https://dev.azure.com/accelerate-no/492853ab-23f1-4382-ab9d-8bff43b578f7/_apis/git/repositories/d0813bc2-10c7-466a-972b-bf8af1df545d/Items?path=/.attachments/image-e3801e46-3b8d-41b4-80bd-822746e6cc85.png&amp;download=false&amp;resolveLfs=true&amp;%24format=octetStream&amp;api-version=5.0-preview.1&amp;sanitize=true&amp;versionDescriptor.version=wikiMaster"/>
+
 
 
 
