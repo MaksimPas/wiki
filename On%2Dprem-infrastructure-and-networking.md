@@ -58,14 +58,11 @@ Entire NAT chain for inbound traffic on Router:
   * SSH access to CP
 * port 6443 --> 192.168.0.11:6443 --> 10.1.0.8:6443 --> 10.0.0.10:6443
   * HTTPS access to K8S api server.
-* port 80 --> 192.168.0.11:8880 --> 10.1.0.8:8880 --> 10.0.0.11:32050
+* port 80 --> 192.168.0.11:8880 --> 10.1.0.8:8880
+  * LB http front end port (not used, use HTTPS instead).
 * port 443 --> 192.168.0.11:8883 --> 10.1.0.8:8883
   * LB front end port
-
-
-
-
-
+* port 500 --> 192.168.0.11:500 --> 10.1.0.8:500
   * IPSEC access to pfSense VPN Server.
 * port 4500 --> 192.168.0.11:4500 --> 10.1.0.8:4500
   * IPSEC access to pfSense VPN Server.
