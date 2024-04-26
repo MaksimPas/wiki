@@ -7,4 +7,5 @@ Next steps:
 - Move k8s manifests to separate repo
 - Start using helm as package manager
 - Use resource limits and requests for pods. 
+- Use HPA in k8s. 
 - Cluster monitoring via Prometheus ok, but need smth for pod monitoring. Elastic stack?
