@@ -1,0 +1,1 @@
+In this section all documentation that is outdated/deprecated will be stored
